@@ -146,7 +146,7 @@ void pasarLegajoToPila(char archivo[],Pila* mayoresLegajos)
 
 ///Dado un archivo de alumnos, hacer una función que cuente la cantidad de alumnos mayores a edad específica que se envía por parámetro.
 
-int preguntarDato()
+int preguntarDato()///Esta funcion permite pedirle un dato al usuario
 {
     int edad = 0;
     printf("Ingrese el dato: ");
@@ -156,7 +156,7 @@ int preguntarDato()
 }
 
 
-int contarMayores(char archivo[],int edad)
+int contarMayores(char archivo[],int edad)///FUNCION para poder encontrar la cantidad de alumnos de cierta edad
 {
 
     FILE* archi;
