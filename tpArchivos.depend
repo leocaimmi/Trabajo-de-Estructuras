@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1685720235 source:c:\users\usuario\desktop\tparchivos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+	"funcion.h"
+
+1490112217 source:c:\users\usuario\desktop\pila.c
+	"pila.h"
+
+1490112217 c:\users\usuario\desktop\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1490112217 source:c:\users\gc\desktop\programacion\c\tparchivos\pila.c
+	"pila.h"
+
+1490112217 c:\users\gc\desktop\programacion\c\tparchivos\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1685671026 source:c:\users\gc\desktop\programacion\c\tparchivos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+	"prototipado.h"
+
+1685671699 source:c:\users\gc\desktop\programacion\c\tparchivos\funciones.c
+	"pila.h"
+	"prototipado.h"
+
+1685671026 c:\users\gc\desktop\programacion\c\tparchivos\prototipado.h
+	<stdio.h>
+	<malloc.h>
+
+1490112217 source:c:\users\usuario\desktop\tparchivos\pila.c
+	"pila.h"
+
+1490112217 c:\users\usuario\desktop\tparchivos\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1685719482 c:\users\usuario\desktop\tparchivos\prototipado.h
+	<stdio.h>
+	<malloc.h>
+
+1685719649 source:c:\users\usuario\desktop\tparchivos\funciones.c
+	"pila.h"
+	"prototipado.h"
+
+1685720557 source:c:\users\usuario\desktop\tparchivos\funcion.c
+	"pila.h"
+	"funcion.h"
+
+1685720564 c:\users\usuario\desktop\tparchivos\funcion.h
+
