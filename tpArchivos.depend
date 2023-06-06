@@ -54,3 +54,22 @@
 
 1685720564 c:\users\usuario\desktop\tparchivos\funcion.h
 
+1490112218 source:c:\users\gc\desktop\repositorio\tparchivos\pila.c
+	"pila.h"
+
+1490112218 c:\users\gc\desktop\repositorio\tparchivos\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1685744137 source:c:\users\gc\desktop\repositorio\tparchivos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+	"funcion.h"
+
+1685744910 c:\users\gc\desktop\repositorio\tparchivos\funcion.h
+
+1685745399 source:c:\users\gc\desktop\repositorio\tparchivos\funcion.c
+	"pila.h"
+	"funcion.h"
+

@@ -124,24 +124,28 @@ void agregarElemento(char archivo[])
 
 void pasarLegajoToPila(char archivo[],Pila* mayoresLegajos)
 {
+    if(tope(mayoresLegajos)>200){///Nadie puede tener mas de 200 años y si llega alguna direccion de memoria la elimina
+    desapilar(mayoresLegajos);
+    }
 
     FILE* archi;
     archi = fopen(archivo,"rb");
     stAlumno persona;
 
-    int mayor = 18;
+    int mayor = 17;
 
     if(archi !=NULL)
     {
         while(fread(&persona,sizeof(stAlumno),1,archi)>0)
         {
-            if(persona.edad >= mayor)
+            if(persona.edad > mayor)
             {
                 apilar(mayoresLegajos,persona.legajo);
             }
         }
         fclose(archi);
     }
+
 }
 
 ///Dado un archivo de alumnos, hacer una función que cuente la cantidad de alumnos mayores a edad específica que se envía por parámetro.
@@ -513,6 +517,7 @@ break;
     desde = preguntarDato();                                    ///EN EL SWITCH ACLARAR QUE DATO ESTA INGRESANDO EL USER
     puts("----------------------HASTA------------------------------\n");
     hasta = preguntarDato();
+    cleanWindows();
     rangoNombres(archivo,desde,hasta);
 break;
     case 5:
@@ -566,7 +571,7 @@ cleanWindows();
 void opciones(){
 puts("\n.............................ELEGIR OPCION...........................\n");
 printf("1-Cargar alumnos\n");
-printf("2-Pasar legajos elegidos\n");
+printf("2-Mostrar legajos de los alumnos mayores a 18\n");
 printf("3-Mostrar cantidad por edad\n");
 printf("4-Desde que edad y hasta que edad desea ver la informacion de los alumno\n");
 printf("5-Averiguar la persona mas longeba\n");

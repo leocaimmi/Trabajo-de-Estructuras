@@ -10,7 +10,7 @@ int main()
     inicpila(&legajos);
     stAlumno persona[DIM_MAX];
 
- menu(archivo,persona,&legajos);
+    menu(archivo,persona,&legajos);
 
     return 0;
 }
